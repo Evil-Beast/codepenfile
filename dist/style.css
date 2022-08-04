@@ -1,0 +1,75 @@
+@import('https://fonts.googleapis.com/icon?family=Fira+Mono');
+body {
+	background: url(https://images.unsplash.com/photo-1443926818681-717d074a57af?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1920&fit=max&s=e435d3ac89330d57124fef0de2aceb35);
+	/*
+	https://unsplash.com/@marceloquinan?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge
+	Download free do whatever you want high-resolution photos from Marcelo Quinan
+	*/
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+#homepage {
+	height: 100%;
+	text-align: center;
+	padding: 50px;
+}
+#terminal {
+	min-height: 350px;
+	width: 650px;
+	max-width: 100%;
+	max-height: 100%;
+	background: rgba(29, 31, 32, 0.85);
+	border-radius: .3rem;
+box-shadow: 0 20px 60px 10px rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+#terminal div:first-child div {
+	height: 30px;
+	line-height: 30px;
+}
+#controls {
+	position: absolute;
+}
+#controls span {
+	width: .875rem;
+	height: .875rem;
+	background: #fdbc40;
+	margin: 0 0 0 8px;
+	border-radius: 50%;
+}
+#controls span:first-child {
+	background: #fc615c;
+}
+#controls span:nth-child(3) {
+	background: #33c748;
+}
+#content {
+	font-family: 'Fira Mono', monospace;
+	text-align: left;
+	font-size: 0.8rem;
+	position: absolute;
+	top: 30px;
+	left: 13px;
+	right: 13px;
+	bottom: 0;
+	overflow: auto;
+}
+.green { color: #9ADF3A; }
+.yellow { color: #FFDE38; }
+.red { color: #FF575A; }
+.blue { color: #98d7ff; }
+
+#content > div:last-child {
+	margin-bottom: 20px;
+}
+#content form { display: inline; }
+#content input {
+	text-transform: initial;
+}
+#content > div, #content p {
+	margin: 10px 0;
+}
+#content b {
+	opacity: .3;
+}
