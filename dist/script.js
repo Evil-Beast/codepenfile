@@ -21,7 +21,7 @@ const commands = {
 
 const prephrase = '<span class="green">website</span> <span class="yellow"> (therolf)</span> <span class="red">#</span> ';
 
-var form = $('<div>' + prephrase + '<form id="form"><input type="text" class="nostyle" autofocus /></form>').appendTo('#content');
+var form = $('<div>' + prephrase + '<form id="form"></form>').appendTo('#content');
 
 function launchCommand(command) {
 	$('<div>' + prephrase + command.cmd + '<p>' + command.res + '</p></div>').insertBefore(form)
